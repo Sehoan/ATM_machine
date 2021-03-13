@@ -1,0 +1,129 @@
+//ATM Interface with various classes & GUI
+
+
+//Login Process (Passcode)
+//GUI & figure out a way so the program reject a incorrect passcode and accept the right one.
+
+
+//Withdraw & Deposit
+//Similar to the "BankRoll" in blackjack.
+//Variable = theBank
+
+//Transfer
+//Similar to withdraw and deposit, but have the reccord accessible for the "view account transaction"
+
+
+//View account transaction
+//Show "No record" or "New User" in the beginning, but leave records as the user makes transactions.
+
+
+//Quit
+//Allow the user to logout/quit the program (duh)
+
+
+//GUI interface & Buttons & etc...
+//Basic GUI stuff (add a jpg?)
+
+OOP => Object Oriented Programming
+
+Class
+    - private fields, states, private variables => class
+        - appearance, name, age , etc..
+    - methods, behavior
+        - talk, cry, hit, etc.. 
+
+Classes
+    - ATM
+        -- private fields
+            --> bank accounts  ---------------> related to Login Process (if logged into my account, i can see my bank account) 
+        -- methods
+            --> withdraw(), deposit(), transfer(), view()
+    - BankAccount
+        -- private fields
+            --> AccountHolder, AccountNumebr, Password, Balance 
+        -- methods
+        
+
+Start Panel
+-------------------------------------------------
+                Welcome to ATM
+
+        Create a New Bank Account
+        Login to Existing Bank Account
+
+
+-------------------------------------------------
+
+CreatePanel
+-------------------------------------------------
+                    Sign Up 
+
+        AccountHolder ______________
+        Password      ______________
+
+                    Sign up! (button)
+
+
+-------------------------------------------------
+
+LoginPanel
+-------------------------------------------------
+                Welcome to ATM
+
+        AccountHolder ______________
+        Password      ______________
+
+
+-------------------------------------------------
+
+MenuPanel
+-------------------------------------------------
+                Choose Actions
+
+        Deposit    Withdraw    Transfer    View
+
+
+
+-------------------------------------------------
+
+DepositPanel
+-------------------------------------------------
+                    Deposit
+
+
+            amount _________ deposit(button)
+
+
+
+-------------------------------------------------
+
+WithdrawPanel
+-------------------------------------------------
+                    Withdraw
+
+
+            amount _________ withdraw(button)
+
+
+
+-------------------------------------------------
+TransferPanel
+-------------------------------------------------
+                    Transfer
+
+            Account Number _________ 
+            Amount _________ 
+            
+            Send (button)
+
+
+-------------------------------------------------
+ViewPanel
+-------------------------------------------------
+            Summary of your Account
+
+            Account Holder: Mike
+            Account Number : 087-55524-074
+            password: 123
+            balance: 0 
+-------------------------------------------------
